@@ -1,0 +1,33 @@
+.bmc {
+    padding: 64px 16px 0;
+    text-align: center
+}
+
+.bmc-button {
+    display: inline-flex;
+    background-color: #ff813f;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px 2px rgba(190, 190, 190, .5);
+    box-shadow: 0 1px 2px 2px rgba(190, 190, 190, .5);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Cookie, cursive;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: .6px;
+    line-height: 22px;
+    padding: 4px 8px 4px 6px;
+    text-decoration: none
+}
+
+.bmc-button:active,
+.bmc-button:focus,
+.bmc-button:hover {
+    -webkit-box-shadow: 0 1px 2px 2px rgba(190, 190, 190, .8);
+    box-shadow: 0 1px 2px 2px rgba(190, 190, 190, .8);
+    opacity: .85
+}
+
+.bmc-button img {
+    height: 22px
+}
